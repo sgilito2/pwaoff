@@ -1,0 +1,10 @@
+echo "# pwaoff" >> README.md
+cd C:\Users\sgil\Downloads\pwa\05-navegacion-offline
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git branch gh-pages
+git checkout gh-pages
+git remote add origin https://github.com/sgilito2/pwaoff.git
+git push -u origin gh-pages
