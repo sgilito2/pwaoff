@@ -8,6 +8,13 @@
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
   "scope": "./",
-  "lang": "es-MX"
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./img/icon_1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+    }
 
 }
